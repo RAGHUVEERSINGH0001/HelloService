@@ -16,7 +16,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/RAGHUVEERSINGH0001/library-a")
+            url = uri("https://maven.pkg.github.com/RAGHUVEERSINGH0001/HelloService")
 
             credentials {
                 username = System.getenv("GITHUB_ACTOR")
